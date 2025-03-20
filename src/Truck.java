@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Truck extends Vehicles implements CarriesCargo {
+    String name = "Грузовик";
+    Wheels wheels = new Wheels();
 
-public class Truck {
+    String description = Vehicles.name + " " + name + " имеет " + wheels.name + " и " + CarryGoods();
+
 }

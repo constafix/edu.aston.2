@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Vehicles {
+public abstract class Vehicles {
+    static String name = "Транспортное средство";
 }

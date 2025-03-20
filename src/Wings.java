@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class wings {
+public class Wings {
+    String name = "Крылья";
 }

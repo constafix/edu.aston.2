@@ -1,6 +1,7 @@
-public interface CarriesСargo {
-     public static  String CarryGoods() {
-        String text = "Возит грузы";
-        return text;
-    };
+public interface CarriesCargo {
+    default String CarryGoods() {
+        return "Возит грузы";
+    }
+
+    ;
 }

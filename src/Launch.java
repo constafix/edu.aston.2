@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Launch extends Vehicles implements CarriesCargo {
+    String name = "Катер";
+    Propeller propeller = new Propeller();
 
-public class Launch {
+    String description = Vehicles.name + " " + name + " имеет " + propeller.name + " и " + CarryGoods();
+
 }

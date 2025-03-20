@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class Taxi extends Vehicles {
+    String name = "Такси";
+    Wheels wheels = new Wheels();
 
-public class Taxi {
+    String description = Vehicles.name + " "+ name + " имеет " + wheels.name;
 }
